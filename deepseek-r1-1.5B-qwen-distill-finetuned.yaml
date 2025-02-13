@@ -1,0 +1,6 @@
+name: deepseek-r1-1.5B-qwen-distill-finetuned
+description: "Custom fine-tuned DeepSeek R1 1.5B Qwen Distill model"
+format: transformers  # Try adding a format field if supported
+model:
+  type: transformers
+  model_dir: "/workspace/Janus/deepseek-r1-1.5B-qwen-distill-finetuned"

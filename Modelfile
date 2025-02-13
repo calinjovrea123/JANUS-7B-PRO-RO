@@ -1,0 +1,5 @@
+FROM deepseek
+PARAMETER lora_r 16
+PARAMETER lora_alpha 32
+PARAMETER lora_dropout 0.1
+FINETUNE ./data.jsonl

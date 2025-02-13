@@ -1,0 +1,4 @@
+name: deepseek-r1-1.5B-qwen-distill-finetuned
+version: "1.0.0"
+description: Fine-tuned DeepSeek-R1-Distill-Qwen-1.5B running as a CLI model.
+command: python ollama_entrypoint.py
